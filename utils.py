@@ -24,7 +24,8 @@ def bid(grid,r,i,agent):
       nearest_pos_target_y=positions_agents[i][0][1]
       distance_nearest_target=distance(nearest_pos_target_x,pos_r_x,nearest_pos_target_y,pos_r_y)
       
-      print("nearest_pos_target ",nearest_pos_target)
+      print("nearest_pos_target_x ",nearest_pos_target_x)
+      print("nearest_pos_target_y ",nearest_pos_target_y)
       for j in range(1,len(positions_agents[i])):
           pos_a_x=positions_agents[i][j][0]
           pos_a_y=positions_agents[i][j][1]
